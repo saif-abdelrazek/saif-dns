@@ -1,5 +1,5 @@
 ---
-"test":
+test:
   - ttl: 600
-    type: "CNAME"
-    value: cname.vercel-dns.com.
+    type: CNAME
+    value: SOURCE_DOMAIN_OR_IP.
