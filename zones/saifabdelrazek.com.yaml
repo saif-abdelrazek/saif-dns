@@ -1,5 +1,5 @@
 ---
-"":
-  - type: "A"
-    name: "saifabdelrazek.com"
-    value: 76.76.21.21
+"test":
+  - ttl: 600
+    type: "CNAME"
+    value: cname.vercel-dns.com.
