@@ -10,8 +10,7 @@ This service is using [OctoDNS](https://github.com/octodns/octodns) for managing
 
 - saifabdelrazek.com
 
-Working for adding more in the upcoming future.
-
+We are working on adding more domains in the near future.
 ### How to use it
 
 1. Fork the repo.
