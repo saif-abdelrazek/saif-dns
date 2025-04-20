@@ -1,8 +1,26 @@
-name:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  ttl: 120
-  type: CNAME
-  name: test
-  value: cname.vercel-dns.com.
+---
+ttl: 3600
+octodns:
+  cloudflare:
+    auto-ttl: true
+
+records:
+  - type: A
+    name: @
+    value: 192.0.2.1
+
+  - type: CNAME
+    name: www
+    value: cname.vercel-dns.com.
+
+  - type: CNAME
+    name: cdn
+    value: cname.vercel-dns.com.
+
+  - type: CNAME
+    name: filmora-app
+    value: cname.vercel-dns.com.
+
+  - type: CNAME
+    name: forkify
+    value: forkify-saif.netlify.app.
