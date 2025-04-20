@@ -1,9 +1,10 @@
 ---
-saifabdelrazek.com:
+"":
   - ttl: 600
     type: A
     value: 76.76.21.21
-  - type: MX
+  - ttl: 600
+    type: MX
     priority: "10"
     values:
       - preference: 10
@@ -14,6 +15,20 @@ saifabdelrazek.com:
         exchange: mx3.zoho.com.
 
 www:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  type: CNAME
+  value: cname.vercel-dns.com.
+
+projects:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  type: CNAME
+  value: cname.vercel-dns.com.
+
+games:
   octodns:
     cloudflare:
       auto-ttl: true
