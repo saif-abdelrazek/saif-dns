@@ -1,30 +1,42 @@
 ---
 saifabdelrazek.com:
-  ttl: 3600
+  octodns:
+    cloudflare:
+      auto-ttl: true
   type: A
   value: 76.76.21.21
 
 www:
-  ttl: 3600
+  octodns:
+    cloudflare:
+      auto-ttl: true
   type: CNAME
   value: cname.vercel-dns.com.
 
 cdn:
-  ttl: 3600
+  octodns:
+    cloudflare:
+      auto-ttl: true
   type: CNAME
   value: cname.vercel-dns.com.
 
 filmora-app:
-  ttl: 3600
+  octodns:
+    cloudflare:
+      auto-ttl: true
   type: CNAME
   value: cname.vercel-dns.com.
 
 forkify:
-  ttl: 3600
+  octodns:
+    cloudflare:
+      auto-ttl: true
   type: CNAME
   value: forkify-saif.netlify.app.
 
 test:
-  ttl: 3600
+  octodns:
+    cloudflare:
+      auto-ttl: true
   type: CNAME
   value: cname.vercel-dns.com.
