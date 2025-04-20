@@ -56,7 +56,7 @@ forkify:
   type: CNAME
   value: forkify-saif.netlify.app.
 
-test:
+nonprofit:
   octodns:
     cloudflare:
       auto-ttl: true
