@@ -10,7 +10,7 @@ providers:
     email: env/CLOUDFLARE_EMAIL
 
 zones:
-  saifabdelrazek.com:
+  saifabdelrazek.com.:
     sources:
       - config
     targets:
