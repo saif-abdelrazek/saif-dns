@@ -11,7 +11,9 @@ jobs:
         with:
           python-version: "3"
       - name: Install OctoDNS
-        run: pip install 'octodns==0.9.10'
+        run: |
+          pip install 'octodns==0.9.10'
+          pip install 'octodns-yaml'
       - name: Set executable permissions for dry-run
         run: chmod +x ./bin/dry-run
       - name: Do a dry run
