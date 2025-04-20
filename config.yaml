@@ -1,0 +1,17 @@
+---
+providers:
+  config:
+    class: octodns.providers.ConfigProvider
+    directory: ./zones
+    enforce_order: false
+  cloudflare:
+    class: octodns.provider.cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_TOKEN
+    email: env/CLOUDFLARE_EMAIL
+
+zones:
+  saifabdelrazek.com:
+    sources:
+      - config
+    targets:
+      - cloudflare
