@@ -2,4 +2,4 @@
 test:
   - ttl: 600
     type: CNAME
-    value: SOURCE_DOMAIN_OR_IP.
+    value: cname.vercel-dns.com.
