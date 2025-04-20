@@ -6,7 +6,7 @@ octodns:
 
 records:
   - type: A
-    name: @
+    name: saifabdelrazek.com
     value: 76.76.21.21
 
   - type: CNAME
