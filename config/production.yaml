@@ -1,11 +1,11 @@
 ---
 providers:
   config:
-    class: octodns.providers.yaml.YamlProvider
+    class: octodns.provider.yaml.YamlProvider
     directory: ./zones
     enforce_order: false
   cloudflare:
-    class: octodns.provider.cloudflare.CloudflareProvider
+    class: octodns_cloudflare.CloudflareProvider
     token: env/CLOUDFLARE_TOKEN
     email: env/CLOUDFLARE_EMAIL
 
