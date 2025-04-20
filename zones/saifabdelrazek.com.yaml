@@ -7,7 +7,7 @@ octodns:
 records:
   - type: A
     name: @
-    value: 192.0.2.1
+    value: 76.76.21.21
 
   - type: CNAME
     name: www
@@ -24,3 +24,7 @@ records:
   - type: CNAME
     name: forkify
     value: forkify-saif.netlify.app.
+
+  - type: CNAME
+    name: test
+    value: cname.vercel-dns.com.
