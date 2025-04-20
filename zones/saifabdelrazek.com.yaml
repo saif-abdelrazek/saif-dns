@@ -3,6 +3,6 @@ name:
     cloudflare:
       auto-ttl: true
   ttl: 120
-  type: A
+  type: CNAME
   name: test
   value: cname.vercel-dns.com.
