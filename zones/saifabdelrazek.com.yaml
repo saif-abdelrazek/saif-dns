@@ -1,5 +1,7 @@
----
-test:
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+name:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 120
+  type: A
+  value: 1.2.3.4
