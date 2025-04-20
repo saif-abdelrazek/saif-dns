@@ -17,7 +17,6 @@ jobs:
       - name: Install OctoDNS
         run: |
           pip install 'octodns==0.9.10'
-          pip install 'octodns-yaml'
       - name: Set executable permissions for dry-run
         run: chmod +x ./bin/sync
       - name: Sync w/ production DNS providers
