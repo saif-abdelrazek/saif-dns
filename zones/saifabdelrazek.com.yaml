@@ -47,20 +47,10 @@ saifabdelrazek.com:
       auto-ttl: true
   type: MX
   priority: "10"
-  value: mx.zoho.com.
-
-saifabdelrazek.com:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  type: MX
-  priority: "20"
-  value: mx2.zoho.com.
-
-saifabdelrazek.com:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  type: MX
-  priority: "50"
-  value: mx3.zoho.com.
+  values:
+    - preference: 10
+      exchange: mx.zoho.com.
+    - preference: 20
+      exchange: mx2.zoho.com.
+    - preference: 50
+      exchange: mx3.zoho.com.
