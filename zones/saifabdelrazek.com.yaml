@@ -5,4 +5,4 @@ name:
   ttl: 120
   type: A
   name: test
-  value: 1.2.3.4
+  value: cname.vercel-dns.com.
