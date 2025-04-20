@@ -40,3 +40,27 @@ test:
       auto-ttl: true
   type: CNAME
   value: cname.vercel-dns.com.
+
+saifabdelrazek.com:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  type: MX
+  priority: "10"
+  value: mx.zoho.com.
+
+saifabdelrazek.com:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  type: MX
+  priority: "20"
+  value: mx2.zoho.com.
+
+saifabdelrazek.com:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  type: MX
+  priority: "50"
+  value: mx3.zoho.com.
