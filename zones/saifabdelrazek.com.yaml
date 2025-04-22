@@ -18,8 +18,8 @@ www:
   octodns:
     cloudflare:
       auto-ttl: true
-  type: CNAME
-  value: cname.vercel-dns.com.
+  type: A
+  value: 76.76.21.21
 
 projects:
   octodns:
