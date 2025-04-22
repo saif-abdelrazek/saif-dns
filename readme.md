@@ -2,16 +2,14 @@
 
 ## Description
 
-This is a dns service for my domain names. It is a simple service that allows me and any one to add, remove and list dns records for the provided domain names.
-
+This is a dns service for my domain names. It is a simple service that allows me and anyone to add, remove and list dns records for the provided domain names.
 This service is using [OctoDNS](https://github.com/octodns/octodns) for managing the dns records through yaml files. It is also connected to [Cloudflare](https://www.cloudflare.com/) for hosting the dns records.
 
 ### Currently provided domains:
 
 - saifabdelrazek.com
 
-Working for adding more in the upcoming future.
-
+We are working on adding more domains in the near future.
 ### How to use it
 
 1. Fork the repo.
