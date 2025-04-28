@@ -65,3 +65,10 @@ nonprofit:
       auto-ttl: true
   type: CNAME
   value: cname.vercel-dns.com.
+
+url:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  type: CNAME
+  value: 2xo1woe8.up.railway.app
