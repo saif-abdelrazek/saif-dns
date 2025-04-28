@@ -71,4 +71,4 @@ url:
     cloudflare:
       auto-ttl: true
   type: CNAME
-  value: 2xo1woe8.up.railway.app
+  value: 2xo1woe8.up.railway.app.
